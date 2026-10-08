@@ -24,6 +24,8 @@ setup(
     },
     entry_points={
         'console_scripts': [
+            'status_publisher = robot_basics.status_publisher:main',
+            'status_subscriber = robot_basics.status_subscriber:main',
         ],
     },
 )
